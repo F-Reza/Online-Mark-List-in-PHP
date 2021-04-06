@@ -1,0 +1,182 @@
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+*{margin:0;padding:0;}
+body{background:#BDBDBD;}
+#main_wrapper{
+	margin:0 auto;
+	width: 100%;
+	height:auto;
+	position:relative;
+}	
+
+/*-- Header --*/
+#header{
+	position:relative;
+	height:52px;
+	background:#20da7b;
+	margin-bottom:5px;
+}#IT{font-size:28px; 
+text-align:center;padding-top:10px;}
+
+#Tab-Left{
+	position:relative;
+	left:0;
+	float:left;
+	width:30%;
+	min-height:634px;
+	background:#BDBDBD;
+}
+.Tbl-1{width:80%;height:415px; }
+table{margin:0 auto;margin-bottom:25px;text-align:center;}
+.box{
+	width:98%;
+	height:23px;
+	font-size:16px;
+	padding:1px;
+}
+td{padding:5px;}
+th{padding:10px;}
+h2,h3{text-align:center;}
+
+.Submit{
+	width:75px;
+	height:30px;
+	font-size:16px;
+	margin-right:10px;
+	background:#009688;
+	border-radius:5px;
+}.Reset{
+	width:60px;
+	height:30px;
+	font-size:;
+	font-size:16px;
+	background:#607D8B;
+	border-radius:5px;
+}
+.Submit:hover,.Reset:hover{
+	background:#4CAF50;
+}.Submit:active,.Reset:active{
+	background:#9cf535;
+}
+
+#Tab-Middle{
+	position:relative;
+	float:left;
+	width:35%;
+	min-height:250px;
+	background:#9E9E9E;
+}
+#Tab-Right{
+	position:relative;
+	float:left;
+	width:35%;
+	min-height:250px;
+	background:#c5c5c5;
+}
+
+
+/*----------footer-----------*/
+#footer{
+	position:relative;
+	width:100%;
+	height:40px;
+	background:#18161b;
+	border:none;
+	float:left;
+	margin-top:5px;
+}
+#footer p{
+	color:#fff;
+	text-align:center;
+	display:block;
+	padding:10px 20px;
+	font-size:18px;
+}
+#footer p a{
+	text-decoration:none;
+	color:#3333FF;
+}
+#footer p a:hover {
+	color:red;
+}
+
+/*----------End Main CSS-----------*/	
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+
+
+/*		Tablet Layout: 1080px.
+		Inherits styles from: Default Layout.
+---------------------------------------------------------*/
+
+@media only screen and (min-width: 1080px){
+#Tab-Left{
+	width:35%;
+}
+#Tab-Middle{
+	width:65%;
+}	
+#Tab-Right{
+	width:65%;
+}
+	
+}
+
+
+/*		Wide Mobile Layout: 580px.
+		Inherits styles from: Default Layout, Mobile Layout.
+---------------------------------------------------------*/
+
+@media only screen and (min-width: 819px) and (max-width: 1079px) {
+#main_wrapper{margin:0 auto;width:85%;}	
+#Tab-Left{
+	width:100%;
+	margin:10px 0 5px 0;
+	min-height:450px;
+}.box{width:98%;}
+.Tbl-1{width:85%; }
+#Tab-Middle{
+	width:100%;
+	margin:5px 0 5px 0;
+}	
+#Tab-Right{
+	width:100%;
+	margin:5px 0 5px 0;
+}
+	
+}
+/*		Wide Mobile Layout: 320px.
+		Inherits styles from: Default Layout, Mobile Layout.
+---------------------------------------------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 820px) {
+#Tab-Left{
+	width:100%;
+	margin:10px 0 5px 0;
+	min-height:450px;
+}.box{width:240px;}
+#Tab-Middle{
+	width:100%;
+	float:left;
+	margin:5px 0 5px 0;
+}	
+#Tab-Right{
+	width:100%;
+	float:left;
+	margin:5px 0 5px 0;
+}
+	
+}
+/*---------End Media Query-----------*/	
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+
+
+
+
+	
+
+
